@@ -1,0 +1,20 @@
+【3月24日】赛题解析&Baseline思路
+
+回看链接：https://ger.h5.xeknow.com/s/2jwLyu
+
+课件&Baseline代码链接：https://pan.baidu.com/s/1Y_yfuL8H6WLPOA9Opy1PSg 
+提取码：jfde 
+
+电子书链接：https://pan.baidu.com/s/1IQGdLgHz0ROEMjrwi140Ug 
+提取码：pd2z 
+
+作业一：注册并登陆kaggle账号，提交baseline答案；
+作业详解：
+kaggle账号 注册 & 登陆；
+baseline 环境配置；
+baseline运行 & 提交结果；
+打卡要求：
+注册完成账号，并成功提交答案进行打分;
+提交提交结果的打分（Kaggle网页截图）；
+截止日期：3/29 23:59
+打卡链接：https://ger.h5.xeknow.com/s/dUiU3
