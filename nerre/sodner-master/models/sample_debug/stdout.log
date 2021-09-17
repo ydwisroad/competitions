@@ -1,0 +1,33 @@
+2021-08-10 21:32:43,208 - INFO - allennlp.common.params - random_seed = 13370
+2021-08-10 21:32:43,209 - INFO - allennlp.common.params - numpy_seed = 1337
+2021-08-10 21:32:43,209 - INFO - allennlp.common.params - pytorch_seed = 133
+2021-08-10 21:32:43,226 - INFO - allennlp.common.checks - Pytorch version: 1.5.1
+2021-08-10 21:32:52,262 - INFO - allennlp.common.params - evaluate_on_test = True
+2021-08-10 21:44:54,259 - INFO - allennlp.common.params - validation_dataset_reader = None
+2021-08-10 21:45:01,016 - INFO - allennlp.common.params - dataset_reader.lazy = None
+2021-08-10 21:45:40,104 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.dataset_readers.dataset_reader.DatasetReader'> from params {'context_width': 1, 'debug': False, 'max_span_width': 6, 'token_indexers': {'bert': {'do_lowercase': True, 'pretrained_model': '/Users/i052090/Downloads/segmentation/data/bertmany/scibert_scivocab_cased/vocab.txt', 'type': 'bert-pretrained', 'use_starting_offsets': True}}, 'type': 'ie_json', 'use_overlap_rel': True} and extras set()
+2021-08-10 21:45:40,105 - INFO - allennlp.common.params - dataset_reader.type = ie_json
+2021-08-10 21:45:40,106 - INFO - allennlp.common.from_params - instantiating class <class 'sodner.data.dataset_readers.ie_json.IEJsonReader'> from params {'context_width': 1, 'debug': False, 'max_span_width': 6, 'token_indexers': {'bert': {'do_lowercase': True, 'pretrained_model': '/Users/i052090/Downloads/segmentation/data/bertmany/scibert_scivocab_cased/vocab.txt', 'type': 'bert-pretrained', 'use_starting_offsets': True}}, 'use_overlap_rel': True} and extras set()
+2021-08-10 21:45:40,107 - INFO - allennlp.common.params - dataset_reader.max_span_width = 6
+2021-08-10 21:45:40,108 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.token_indexers.token_indexer.TokenIndexer'> from params {'do_lowercase': True, 'pretrained_model': '/Users/i052090/Downloads/segmentation/data/bertmany/scibert_scivocab_cased/vocab.txt', 'type': 'bert-pretrained', 'use_starting_offsets': True} and extras set()
+2021-08-10 21:45:40,108 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.type = bert-pretrained
+2021-08-10 21:45:40,108 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.token_indexers.wordpiece_indexer.PretrainedBertIndexer'> from params {'do_lowercase': True, 'pretrained_model': '/Users/i052090/Downloads/segmentation/data/bertmany/scibert_scivocab_cased/vocab.txt', 'use_starting_offsets': True} and extras set()
+2021-08-10 21:45:40,109 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.pretrained_model = /Users/i052090/Downloads/segmentation/data/bertmany/scibert_scivocab_cased/vocab.txt
+2021-08-10 21:45:40,109 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.use_starting_offsets = True
+2021-08-10 21:45:40,110 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.do_lowercase = True
+2021-08-10 21:45:40,110 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.never_lowercase = None
+2021-08-10 21:45:40,111 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.max_pieces = 512
+2021-08-10 21:45:40,111 - INFO - allennlp.common.params - dataset_reader.token_indexers.bert.truncate_long_sequences = True
+2021-08-10 21:45:40,113 - INFO - pytorch_pretrained_bert.tokenization - loading vocabulary file /Users/i052090/Downloads/segmentation/data/bertmany/scibert_scivocab_cased/vocab.txt
+2021-08-10 21:45:40,167 - INFO - allennlp.common.params - dataset_reader.context_width = 1
+2021-08-10 21:45:40,167 - INFO - allennlp.common.params - dataset_reader.debug = False
+2021-08-10 21:45:40,167 - INFO - allennlp.common.params - dataset_reader.lazy = False
+2021-08-10 21:45:40,167 - INFO - allennlp.common.params - dataset_reader.use_overlap_rel = True
+2021-08-10 21:50:48,875 - INFO - allennlp.common.params - train_data_path = ./data/cadec/train.json
+2021-08-10 21:50:52,013 - INFO - allennlp.training.util - Reading training data from ./data/cadec/train.json
+Python 3.7.10 (default, Feb 26 2021, 10:16:00) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.26.0 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 7.26.0
+
+Out[1]: './data/cadec/train.json'

@@ -1,8 +1,10 @@
 import numpy as np  # linear algebra
 import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
 import cv2, matplotlib.pyplot as plt
-from tqdm import tqdm_notebook
+#from tqdm import tqdm_notebook
+from tqdm import tqdm
 
+#conda activate python37
 import torch
 from PIL import Image
 
@@ -138,7 +140,7 @@ if (DEVICE is not None):
 #extract image features
 imagefeat = []
 with torch.no_grad():
-    for data in tqdm_notebook(imageloader):
+    for data in tqdm(imageloader):
         if DEVICE is not None:
             data = data.to(DEVICE)
         feat = imgmodel(data)

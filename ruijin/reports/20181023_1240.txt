@@ -1,0 +1,81 @@
+              precision    recall  f1-score   support
+
+    B-Amount      0.857     0.674     0.754      1069
+    I-Amount      0.876     0.707     0.783      7514
+   B-Anatomy      0.766     0.697     0.730     23263
+   I-Anatomy      0.751     0.712     0.731     90583
+   B-Disease      0.859     0.884     0.871     33744
+   I-Disease      0.868     0.895     0.881    117905
+      B-Drug      0.894     0.861     0.877     12766
+      I-Drug      0.890     0.871     0.880     48626
+  B-Duration      0.807     0.577     0.673       973
+  I-Duration      0.813     0.554     0.659      3131
+ B-Frequency      0.878     0.766     0.818       479
+ I-Frequency      0.871     0.805     0.837      1745
+     B-Level      0.807     0.559     0.661      1437
+     I-Level      0.797     0.536     0.641      3400
+    B-Method      0.855     0.708     0.774       849
+    I-Method      0.851     0.774     0.810      2120
+ B-Operation      0.933     0.900     0.916       630
+ I-Operation      0.947     0.911     0.929      2630
+    B-Reason      0.577     0.336     0.425      3687
+    I-Reason      0.563     0.371     0.447     18131
+   B-SideEff      0.725     0.507     0.597       747
+   I-SideEff      0.750     0.537     0.626      2459
+   B-Symptom      0.767     0.640     0.698      4084
+   I-Symptom      0.728     0.638     0.680     15803
+      B-Test      0.829     0.797     0.813     43953
+      I-Test      0.815     0.766     0.789    146086
+B-Test_Value      0.741     0.545     0.628      8685
+I-Test_Value      0.822     0.719     0.767     65081
+ B-Treatment      0.873     0.649     0.745      1027
+ I-Treatment      0.859     0.695     0.768      4187
+
+ avg / total      0.815     0.767     0.789    666794
+
+
+
+=============================================
+[feat example]
+'0:word.lower()': '人'
+'0:word.is_digit': 'False'
+'0:word.is_title': 'False'
+'0:word.is_zh_num': 'False'
+'0:word.is_time_unit': 'False'
+'0:word.is_blank': 'False'
+'-1:word.lower()': '成'
+'-1:word.is_digit': 'False'
+'-1:word.is_title': 'False'
+'-1:word.is_zh_num': 'False'
+'-1:word.is_time_unit': 'False'
+'-1:word.is_blank': 'False'
+'-2:word.lower()': '国'
+'-2:word.is_digit': 'False'
+'-2:word.is_title': 'False'
+'-2:word.is_zh_num': 'False'
+'-2:word.is_time_unit': 'False'
+'-2:word.is_blank': 'False'
+'-3:word.lower()': '中'
+'-3:word.is_digit': 'False'
+'-3:word.is_title': 'False'
+'-3:word.is_zh_num': 'False'
+'-3:word.is_time_unit': 'False'
+'-3:word.is_blank': 'False'
+'+1:word.lower()': '2'
+'+1:word.is_digit': 'True'
+'+1:word.is_title': 'False'
+'+1:word.is_zh_num': 'False'
+'+1:word.is_time_unit': 'False'
+'+1:word.is_blank': 'False'
+'+2:word.lower()': '型'
+'+2:word.is_digit': 'False'
+'+2:word.is_title': 'False'
+'+2:word.is_zh_num': 'False'
+'+2:word.is_time_unit': 'False'
+'+2:word.is_blank': 'False'
+'+3:word.lower()': '糖'
+'+3:word.is_digit': 'False'
+'+3:word.is_title': 'False'
+'+3:word.is_zh_num': 'False'
+'+3:word.is_time_unit': 'False'
+'+3:word.is_blank': 'False'

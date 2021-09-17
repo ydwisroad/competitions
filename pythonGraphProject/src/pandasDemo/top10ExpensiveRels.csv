@@ -1,0 +1,11 @@
+,aNode.name,bNode.name,sum(rel.invocations),sumduration
+0,SCA:com.successfactors.notification.service.GetNotificationsByRecipient,SCA:com.successfactors.genericobject.service.ExecuteGOSQLQuery,6,1526
+1,/acme,SCA:com.successfactors.picklist.service.GetPickListV1,22,674
+2,/ec/ajax/remoting/call/plaincall/mssEmploymentInfoControllerProxy.getPortletData.dwr,SCA:com.successfactors.genericobject.service.ExecuteGOSQLQuery,227,659
+3,SCA:com.successfactors.picklist.service.GetPickListV1,SUPERSFEDIS-Picklist_cache-com.successfactors.cachelegacy.impl.MigrationCacheAdapter.get,22,547
+4,/xi/ajax/remoting/call/plaincall/tlmPeopleProfile3ControllerProxy.getTLMView.dwr,SCA:com.successfactors.genericobject.service.GenericRelationshipLoader,29,540
+5,/ec/ajax/remoting/call/plaincall/essControllerProxy.getPortletData.dwr,Spring:com.successfactors.rbp.app.api.impl.RBPFacadeImpl.isFieldAllowed,59,507
+6,SUPERSFEDIS-Picklist_cache-com.successfactors.cachelegacy.impl.MigrationCacheAdapter.get,Cache deserialize com.successfactors.sfedis.serializer.JDKSerializer,5,474
+7,/acme,Spring:com.successfactors.rbp.app.api.impl.RBPFacadeImpl.isUserInTargetPopulation,32,444
+8,/sf/orgchart,SCA:com.successfactors.legacy.service.permission.GetUserPermission,9,402
+9,SCA:com.successfactors.legacy.service.permission.GetUserPermission,SCA:com.successfactors.legacy.service.permission.GetRBPPermissionListBean,9,399
